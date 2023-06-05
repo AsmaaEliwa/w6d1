@@ -4,6 +4,8 @@ body {
   /* If the user cannot load the Arial font, the sans-serif font is used */
   font-family: Arial, sans-serif;
   background-color: #FEFFF1;
+  width: 900px;
+  margin: 0px auto;
 }
 
 h1 {
@@ -72,3 +74,28 @@ h2 + .user_review {
     border-top: 1px solid black;
 }
 
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+header{
+    display: flex;
+    background-color: gray;
+}
+.main_sec{
+    width: 700px;
+display: inline-block;
+background-color: blue;
+}
+aside{
+    width: 180px;
+    background-color: bisque;
+display: inline-block;
+vertical-align: top;
+
+
+}
